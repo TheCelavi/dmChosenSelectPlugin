@@ -1,0 +1,34 @@
+dmChosenSelectPlugin is missing add on for Diem. It provides you with cool selects for loooooong list of items.
+
+Where can be used?
+---------------
+It is mentioned to be used for the admin part of the application, but since it contains widgets, it is fully compatible for front part of the application.
+
+How to use it?
+---------
+In your schema.yml add "chosen" for the select fields that you want for the admin.
+
+For the front application, use provided widgets, and that's all
+
+How does it works?
+---------
+Simple, hides symfony select fields, adds text box and javascript that manages hidden fields values. Simple, huh?
+
+What is different?
+---------
+Everything! The concept is different - javascript is just a presentation of Symfony select, we do not touch that, we are just presenting a new UI. 
+
+Localization?
+---------
+Of course! Automated!
+
+To whom to say thanks?
+---------
+To TheCelavi :)
+And this guy too: http://harvesthq.github.com/chosen/
+
+And you are most welcome!
+
+TODO?
+---------
+There is no much support for IE :( too bad...
